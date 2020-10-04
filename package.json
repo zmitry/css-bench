@@ -1,0 +1,44 @@
+{
+  "name": "cssinjs-benchmarks-v2",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "start": "webpack-dev-server --hot --inline",
+    "build": "NODE_ENV=production webpack -p"
+  },
+  "dependencies": {
+    "@emotion/core": "10.0.22",
+    "@emotion/styled": "10.0.23",
+    "@reshadow/styled": "0.0.1-alpha.70",
+    "@types/styletron-engine-atomic": "^1.1.0",
+    "@types/styletron-react": "^5.0.2",
+    "@types/styletron-standard": "^2.0.1",
+    "babel-plugin-emotion": "10.0.23",
+    "babel-plugin-macros": "^2.8.0",
+    "nano-css": "5.2.0",
+    "otion": "0.6.2",
+    "randomcolor": "0.5.4",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "react-syntax-highlighter": "10.2.1",
+    "reshadow": "0.0.1-alpha.71",
+    "styled-components": "4.4.1",
+    "styled-jss": "2.2.3",
+    "styletron": "^3.0.4",
+    "styletron-react": "^5.2.7",
+    "taddy": "^0.0.16",
+    "taddy.macro": "^0.0.29"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "raw-loader": "2.0.0",
+    "webpack": "^4.22.0",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "keywords": []
+}
